@@ -1,0 +1,23 @@
+{
+  "name": "parcel",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --dist-dir public --public-url ./",
+    "clean": "del-cli ./.parcel-cache ./public ./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "del-cli": "^5.1.0",
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "animejs": "^4.0.2",
+    "firebase": "^11.6.1",
+    "underscore": "^1.13.7"
+  }
+}

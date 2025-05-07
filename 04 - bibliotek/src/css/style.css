@@ -1,0 +1,9 @@
+.animate{
+    margin-bottom: 2px;
+    width: 50px;
+    aspect-ratio: 1/1;
+    background-color: hotpink;
+}
+#animationContainer{
+    display: flex;
+}
