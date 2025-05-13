@@ -1,0 +1,19 @@
+.dark{
+    background-color: rgb(29, 29, 29);
+    color: white;
+}
+
+.hotpink{
+    background-color: hotpink;
+}
+.skyblue{
+    background-color: skyblue;
+}
+.violet{
+    background-color: violet;
+}
+
+div{
+    border: 1px solid darkgray;
+    /* margin: 1rem; */
+}
