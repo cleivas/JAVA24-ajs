@@ -1,0 +1,11 @@
+.task{
+    display: flex;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+.task p{
+    cursor: pointer;
+}
